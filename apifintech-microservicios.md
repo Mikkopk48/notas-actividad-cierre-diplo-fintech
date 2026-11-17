@@ -72156,9 +72156,9 @@ e6a49dcd204d9f7bc68d572da123803559a22f81: [[Pasted image 20261117180208.png]]
 			"opacity": 100,
 			"roundness": null,
 			"seed": 50519,
-			"version": 136,
-			"versionNonce": 1218989585,
-			"updated": 1794942309202,
+			"version": 175,
+			"versionNonce": 699692170,
+			"updated": 1794953197120,
 			"isDeleted": false,
 			"groupIds": [],
 			"boundElements": [],
@@ -448811,10 +448811,10 @@ e6a49dcd204d9f7bc68d572da123803559a22f81: [[Pasted image 20261117180208.png]]
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
 		"currentItemFrameRole": null,
-		"scrollX": 2168.8236893338253,
-		"scrollY": -1916.8132515625696,
+		"scrollX": 2835.243221068067,
+		"scrollY": -1398.3895762684378,
 		"zoom": {
-			"value": 0.8
+			"value": 0.955174
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
