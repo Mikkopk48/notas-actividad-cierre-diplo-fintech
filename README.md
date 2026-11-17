@@ -1,8 +1,8 @@
 # Notas · Proyecto final Diplomatura en Desarrollo Fintech
 
-## Notas en Excalidraw
+![Portada](apifintech-microservicios.png)
 
-_Todavía no hay dibujos._
+## Notas en Excalidraw
 
 ---
 _README generado automáticamente por `scripts/update-readme.sh`._
