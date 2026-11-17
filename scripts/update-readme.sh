@@ -26,7 +26,7 @@ if [[ -f "$PORTADA" ]]; then cover="$PORTADA"; elif (( ${#pngs[@]} )); then cove
   echo "## Notas en Excalidraw"
   echo
   if (( ${#pngs[@]} == 0 )); then
-    echo "_Todavía no hay dibujos._"
+    echo "_Todavía no hay dibujos._"; echo
   else
     for p in "${pngs[@]}"; do
       [[ "$p" == "$cover" ]] && continue
