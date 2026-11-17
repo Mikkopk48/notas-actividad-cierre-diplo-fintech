@@ -289,7 +289,7 @@
   "canvasImmersiveEmbed": true,
   "compareManifestToPluginVersion": true,
   "compatibilityMode": false,
-  "compress": true,
+  "compress": false,
   "copyFrameLinkByName": false,
   "copyLinkToElemenetAnchorTo100": false,
   "cropFolder": "",
