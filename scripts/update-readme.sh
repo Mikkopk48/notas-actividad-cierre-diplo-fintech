@@ -7,6 +7,11 @@ cd "$(git rev-parse --show-toplevel)"
 TITLE="Notas · Proyecto final Diplomatura en Desarrollo Fintech"
 PORTADA="Excalidraw/Portada.excalidraw.png"
 
+# URL raw de GitHub (usuario/repo y rama salen de git, no están fijos)
+REPO_SLUG="$(git remote get-url origin | sed -E 's#^(https://github\.com/|git@github\.com:)##; s#\.git$##')"
+BRANCH="$(git branch --show-current)"
+RAW="https://raw.githubusercontent.com/$REPO_SLUG/$BRANCH"
+
 urlenc() { python3 -c 'import sys,urllib.parse;print(urllib.parse.quote(sys.argv[1]))' "$1"; }
 
 # PNG exportados por Excalidraw (nota con frontmatter excalidraw-plugin + PNG del mismo nombre), más recientes primero
@@ -36,10 +41,11 @@ if [[ -f "$PORTADA" ]]; then cover="$PORTADA"; elif [[ -f Excalidraw/Portada.png
     for p in "${pngs[@]}"; do
       [[ "$p" == "$cover" ]] && continue
       name="$(basename "$p" .png)"; name="${name%.excalidraw}"
-      md="${p%.png}.md"
       echo "### $name"
       echo
-      echo "[![$name]($(urlenc "$p"))]($(urlenc "$md"))"
+      echo "[![$name]($(urlenc "$p"))]($RAW/$(urlenc "$p"))"
+      echo
+      echo "_Hacé clic en la imagen para verla en pantalla completa._"
       echo
     done
   fi
