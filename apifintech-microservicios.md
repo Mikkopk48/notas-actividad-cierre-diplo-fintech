@@ -66,8 +66,6 @@ a153793c443b81b996e57d4b8ca88e5ec0278495: [[Pasted image 20261118165045.png]]
 
 3537092900281d8675ad6ab65d6b9325aca22f03: [[Pasted image 20261118175835.png]]
 
-25d4ce04f7d3f5142817e0d106d77fea7d5dfe41: [[Pasted image 20261119150550.png]]
-
 %%
 ## Drawing
 ```json
@@ -646276,11 +646274,11 @@ a153793c443b81b996e57d4b8ca88e5ec0278495: [[Pasted image 20261118165045.png]]
 			"index": "c0SK",
 			"roundness": null,
 			"seed": 589382113,
-			"version": 116,
-			"versionNonce": 743831791,
-			"isDeleted": false,
+			"version": 117,
+			"versionNonce": 1708300194,
+			"isDeleted": true,
 			"boundElements": [],
-			"updated": 1795111584508,
+			"updated": 1795217351389,
 			"created": 1795111550347,
 			"link": null,
 			"locked": false,
@@ -646313,10 +646311,10 @@ a153793c443b81b996e57d4b8ca88e5ec0278495: [[Pasted image 20261118165045.png]]
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
 		"currentItemFrameRole": null,
-		"scrollX": -333.7251009356158,
-		"scrollY": 937.1818947869906,
+		"scrollX": 375.2680536193347,
+		"scrollY": 1033.094072498046,
 		"zoom": {
-			"value": 0.753004
+			"value": 0.35
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
